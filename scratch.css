@@ -113,3 +113,8 @@ ul.topnav li.right {float: right;}
 .footer a:hover{
   color: #F18F06;
 }
+
+.img {
+  width: 20vw;
+  height: 20vw;
+}
