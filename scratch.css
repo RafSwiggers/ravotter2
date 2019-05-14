@@ -146,6 +146,7 @@ ul.topnav li.right {float: right;}
 .img {
   width: 20vw;
   height: 20vw;
+  border-radius: 50%;
 }
 
 .card img{
