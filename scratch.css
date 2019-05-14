@@ -37,6 +37,7 @@ ul.topnav li.right {float: right;}
         transition: 0.3s;
         width: 75vw;
         margin: auto;
+        margin-bottom: 0;
         padding: 2vw;
       }
       .card:hover {
@@ -58,15 +59,20 @@ ul.topnav li.right {float: right;}
     box-shadow: 0 0 15px rgba(0,0,0,.25);
  
  }
+
+ .form-container input{
+   background-color: #F18F06;
+ }
  
- .textarea {
+ form .textarea {
      resize: none;
      display: inline-block;
      align-items: right;
      width: 200px;
      position:relative;
      left: 15px;
- 
+     background-color: #F18F06;
+
  }
  
  .submitbtn{
@@ -87,4 +93,14 @@ ul.topnav li.right {float: right;}
   width:75%;
   position:absolute;
 }
- 
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 5vw;
+  margin-top: 0;
+}
