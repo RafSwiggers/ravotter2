@@ -91,6 +91,22 @@ ul.topnav li.right {float: right;}
     
  }
 
+ .container h3 {
+   margin-bottom: 30px;
+ }
+
+ .bereikbaarheid {
+   padding-top: 10px;
+ }
+
+ .contact-links {
+   color: black;
+ }
+
+ .contact-links:hover {
+   text-decoration: none;
+   color: black;
+ }
 
  .map-responsive{
   overflow:hidden;
