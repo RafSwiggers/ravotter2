@@ -1,5 +1,4 @@
 body {margin: 0;
-    background: url("./images/background.jpg");
   }
 
 ul.topnav {
@@ -77,7 +76,11 @@ ul.topnav li.right {float: right;}
  
  .submitbtn{
     margin: 0 auto;
-    
+ }
+ .submitbtnour{
+  color: black !important;
+  background-color: #F18F06 !important;
+  border: none !important;
  }
 
  .map-responsive{
@@ -134,3 +137,16 @@ ul.topnav li.right {float: right;}
 #home{
   width: 40vw;
 }
+
+.parallax { 
+  /* The image used */
+  background-image: url("./images/background.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
