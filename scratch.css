@@ -2,6 +2,10 @@ body {margin: 0;
     background: url("./images/background.jpg");
   }
 
+h1 {
+  text-align: center;
+}
+
 ul.topnav {
   width: 100vw;
   list-style-type: none;
