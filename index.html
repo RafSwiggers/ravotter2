@@ -7,6 +7,7 @@
     <meta name="description" content="Ravotter binnen speeltuin te Antwerpen biedt plezier voor kinderen vanaf 3 tot 13 jaar. De ouders kunnen er genieten van een hapje met gratis WIFI.">
     <meta name="keywords" content="binnenspeeltuin, kinderen, plezier, Antwerpen, jong, activiteit, evenementen, spelen">
     <meta name="author" content="Steve, Raf, Soman, Benny">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./scratch.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,9 +15,7 @@
 </head>
 
 <body>
-
     <div class="nav">
-
         <ul class="topnav">
                 <li><a class="active" href="#home">Over ons</a></li>
                 <li><a href="#news">Wat kan je hier doen?</a></li>
@@ -88,7 +87,7 @@
     <div class="container" id="for">
         <h2>Waar vind je ons?</h2>
         <div class="map-responsive">
-          <iframe class="col-xs-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.6469190532225!2d4.3987072159486535!3d51.22557967958985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6591bd768ef%3A0x3c540c84b257aba5!2sSint-Pietersvliet+7%2C+2000+Antwerpen!5e0!3m2!1sen!2sbe!4v1557819386037!5m2!1sen!2sbe" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe class="col-xs-12 googlemps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.6469190532225!2d4.3987072159486535!3d51.22557967958985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6591bd768ef%3A0x3c540c84b257aba5!2sSint-Pietersvliet+7%2C+2000+Antwerpen!5e0!3m2!1sen!2sbe!4v1557819386037!5m2!1sen!2sbe" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
         <p>Adres: Sint-Pietersvliet 7</p>
         <p>Telefoon: 04 97 71 76 71</p>
@@ -101,33 +100,33 @@
 <hr>
         <h3 id="contact">Contact</h3>
         <p>Wij staan klaar om je vragen te beantwoorden. Vul ons contactformulier in, dan nemen wij zo snel mogelijk contact met je op. Wij zijn ook telefonisch te bereiken op <a href="tel:0497717671">0497717671</a></p><br>
-            <form>
+          <form action="https://formspree.io/benny.ho2530@gmail.com" method="POST">
                 <div class="form-container">
                     <div class="form-group row">
                       <label for="inputName3" class="col-sm-4 col-form-label">Name:</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputName3" placeholder="Name" required>
+                        <input type="text" class="form-control" id="inputName3" name="inputName3" placeholder="Name" required>
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="inputEmail3" class="col-sm-4 col-form-label">Email:</label>
                       <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="email" required>
+                        <input type="email" class="form-control" id="inputEmail3" name="inputEmail3" placeholder="email" required>
                       </div>
                     </div>
                     <div class="form-group row">
                         <label for="inputTelefoon3" class="col-sm-4 col-form-label">Telefoon:</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="inputTelefoon3" placeholder="Telefoon" required>
+                            <input type="tel" class="form-control" id="inputTelefoon3" name="inputTelefoon3" placeholder="Telefoon" required>
                         </div>
                      </div>
                      <div class="form-group row">
                         <label for="inputPassword3" class="col-sm-4 col-form-label">Onderwerp:</label>
-                        <textarea class="col-sm-9 form-control textarea" name="" id="" cols="10" rows="8" placeholder="Bericht"></textarea>
+                        <textarea class="col-sm-9 form-control textarea" name="inputTextarea" id="" cols="10" rows="8" placeholder="Bericht"></textarea>
                     </div>
                     <div class="form-group row">
                       <div class="col-sm-5 submitbtn">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary" value="Send">Sign in</button>
                       </div>
                     </div>
                 </div>
