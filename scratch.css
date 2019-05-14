@@ -101,6 +101,15 @@ ul.topnav li.right {float: right;}
   background-color: red;
   color: white;
   text-align: center;
-  height: 5vw;
+  height: auto;
+  padding: 1vw;
   margin-top: 0;
+  font-size: 50px;
+}
+.footer a{
+  color: #F18F06;
+}
+
+.footer a:hover{
+  color: #F18F06;
 }
