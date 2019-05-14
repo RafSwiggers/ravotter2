@@ -122,3 +122,10 @@ ul.topnav li.right {float: right;}
 .card img{
   margin: auto;
 }
+.card * {
+  margin: auto;
+}
+
+#home{
+  width: 40vw;
+}
