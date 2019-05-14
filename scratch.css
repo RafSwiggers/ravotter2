@@ -4,12 +4,11 @@
 
 
 body {margin: 0;
-    background: url("./images/background.jpg");
-    
+
   }
 
-h1 {
-  text-align: center;
+html * {
+
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,20 +43,19 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
     .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 75vw;
+        width: 100vw;
         margin: auto;
         margin-bottom: 0;
         padding: 2vw;
-      }
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
+        width: 75vw;
+    }
       .container {
         padding: 2px 16px;
       }
-      
+. .card * {
+  text-align: center;
+
+}
 /****** Contact sections ****/  
 
 
@@ -88,7 +86,11 @@ ul.topnav li.right {float: right;}
  
  .submitbtn{
     margin: 0 auto;
-    
+ }
+ .submitbtnour{
+  color: black !important;
+  background-color: #F18F06 !important;
+  border: none !important;
  }
 
  .container h3 {
@@ -163,3 +165,31 @@ ul.topnav li.right {float: right;}
 #home{
   width: 40vw;
 }
+
+.parallax { 
+  /* The image used */
+  background-image: url("./images/Header.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("./images/header2.jpg");
+
+    /* Set a specific height */
+    height: 450px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
