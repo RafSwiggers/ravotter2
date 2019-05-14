@@ -1,6 +1,10 @@
 body {margin: 0;
   }
 
+html * {
+  font-family: 'Montserrat', sans-serif;
+}
+
 ul.topnav {
   width: 100vw;
   list-style-type: none;
