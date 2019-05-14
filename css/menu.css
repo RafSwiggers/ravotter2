@@ -13,6 +13,7 @@ nav {
     padding: 10px 100px;
     box-sizing: border-box;
     transition: .5s;
+    z-index: 1;
 }
 
 nav.red {
@@ -27,13 +28,13 @@ nav .logo {
 
 nav .logo img {
     height: 200px;
-    width: 100%;
+    width: 200px;
     transition: .5s;
 }
 
 nav.red .logo img {
     height: 110px;
-    width: 100%;
+    width: 110px;
 }
 
 nav ul {
@@ -116,7 +117,7 @@ section.content p {
         left: 0;
         padding: 5px 20px;
         box-sizing: border-box;
-        z-index: 1;
+        z-index: 2;
     }
 
     .responsive-bar .logo img {

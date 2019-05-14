@@ -12,36 +12,6 @@ html * {
   font-family: 'Montserrat', sans-serif;
 }
 
-ul.topnav {
-  width: 100vw;
-  list-style-type: none;
-  margin: auto;
-  padding: 0 20vw;
-  overflow: hidden;
-  background-color: #C12222;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #F18F06;}
-
-ul.topnav li a.active {background-color: #F18F06;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
     .card {
         width: 100vw;
         margin: auto;
@@ -52,7 +22,10 @@ ul.topnav li.right {float: right;}
       .container {
         padding: 2px 16px;
       }
+.card * {
+  text-align: center;
 
+}
 /****** Contact sections ****/  
 
 
@@ -171,6 +144,7 @@ ul.topnav li.right {float: right;}
   height: 450px; 
 
   /* Create the parallax scrolling effect */
+  margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

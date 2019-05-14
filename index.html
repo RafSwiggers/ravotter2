@@ -13,18 +13,46 @@
     <link rel="stylesheet" href="./scratch.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/menu.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+            $('nav').addClass('red');
+        }
+        else
+        {
+            $('nav').removeClass('red');
+        }
+    })
+    $(document).ready(function(){
+        $(".menu h4").click(function(){
+            $("nav ul").toggleClass("active")
+        })
+    })
+    </script>
 </head>
-
 <body>
-    <div class="nav">
-        <ul class="topnav">
-                <li><a class="active" href="#home">Over ons</a></li>
-                <li><a href="#news">Wat kan je hier doen?</a></li>
-                <li><a href="#menu">Honger?</a></li>
-                <li><a href="#for">Ligging</a></li>
-                <li><a href="#contact">Wil je ons wat vragen?</a></li>
-              </ul>
-            </div>
+    <div class="responsive-bar">
+            <div class="logo">
+                    <img src="img/ravotter.png" width="120px" alt="Logo">
+                </div>   
+                <div class="menu">
+                    <h4>Menu</h4>
+                </div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <img src="img/ravotter2.png"  alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">Te doen</a></li>
+            <li><a href="#ligging">Ligging</a></li>
+            <li><a href="#contact">Vragen?</a></li>
+        </ul>
+    </nav>
 
             <div class="parallax">
 
@@ -86,7 +114,7 @@
     </div>
     
     <hr>
-<section id="four">
+<section id="ligging">
 
 
     <div class="container" id="for">
