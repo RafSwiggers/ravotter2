@@ -3,7 +3,7 @@ body {margin: 0;
   }
 
 ul.topnav {
-width: 100vw;
+  width: 100vw;
   list-style-type: none;
   margin: auto;
   padding: 0 20vw;
