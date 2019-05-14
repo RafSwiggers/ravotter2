@@ -122,7 +122,12 @@ ul.topnav li.right {float: right;}
 .card img{
   margin: auto;
 }
-.card * {
+
+.card p{
+  margin: auto;
+}
+
+.card h2{
   margin: auto;
 }
 
