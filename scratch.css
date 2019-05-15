@@ -470,3 +470,7 @@ section.content p {
   color: #c12222 !important;
   border: none !important;
 }
+
+.para-img {
+  margin-bottom: 50px;
+}
