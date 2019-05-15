@@ -22,3 +22,6 @@ A playful look at what we offer the children with regard to activites, using the
 
 ## Menu
 A simple presentation of the local menu, in keeping with the colors of the website.
+
+## Info
+We added both the address and a Google map, for ease of use. We also added opening hours and an email for, as well as a phone number on which to reach us.
