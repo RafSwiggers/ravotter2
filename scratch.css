@@ -2,67 +2,42 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body h1 {
+  font-size: 75px;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin: 1vw 1vw;
+  
+}
 
-body {margin: 0;
-    background: url("./images/background.jpg");
-    
+body {
+  margin: 0;
+
   }
 
-h1 {
-  text-align: center;
+html * {
+
   font-family: 'Montserrat', sans-serif;
 }
 
-ul.topnav {
-  width: 100vw;
-  list-style-type: none;
-  margin: auto;
-  padding: 0 20vw;
-  overflow: hidden;
-  background-color: #C12222;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #F18F06;}
-
-ul.topnav li a.active {background-color: #F18F06;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
     .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 75vw;
-        margin: auto;
+      margin: auto;
         margin-bottom: 0;
-        padding: 2vw;
-      }
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
+        padding: auto;
+        width: 75vw;
+        border: none !important;
+    }
       .container {
         padding: 2px 16px;
       }
-      
+.card * {
+  text-align: center;
+}
 /****** Contact sections ****/  
 
 
 .form-container {
-    background-color: #C12222;
+    background-color: #ff9f1c;
     width: 55vw;
     margin: auto;
     padding: 50px;
@@ -71,9 +46,6 @@ ul.topnav li.right {float: right;}
  
  }
 
- .form-container input{
-   background-color: #F18F06;
- }
  
  form .textarea {
      resize: none;
@@ -82,13 +54,16 @@ ul.topnav li.right {float: right;}
      width: 200px;
      position:relative;
      left: 15px;
-     background-color: #F18F06;
 
  }
  
  .submitbtn{
     margin: 0 auto;
-    
+ }
+ .submitbtnour{
+  color: black !important;
+  background-color: #F18F06 !important;
+  border: none !important;
  }
 
  .container h3 {
@@ -124,10 +99,11 @@ ul.topnav li.right {float: right;}
 }
 
 .footer {
-  left: 0;
+  position: relative;
+  left: -12vw;
   bottom: 0;
-  width: 100%;
-  background-color: red;
+  width: 112vw;
+  background-color: #FFE66D;
   color: white;
   text-align: center;
   height: auto;
@@ -136,14 +112,15 @@ ul.topnav li.right {float: right;}
   font-size: 50px;
 }
 .footer a{
-  color: #F18F06;
+  color: #ff6b6b;
 }
 
 .footer a:hover{
-  color: #F18F06;
+  color: #ff6b6b;
 }
 
 .img {
+<<<<<<< HEAD
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
@@ -151,6 +128,11 @@ ul.topnav li.right {float: right;}
 
 .card img{
   margin: auto;
+=======
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+>>>>>>> master
 }
 
 .card p{
@@ -163,4 +145,320 @@ ul.topnav li.right {float: right;}
 
 #home{
   width: 40vw;
+  margin: auto;
+}
+#playgroundtop {
+  padding: auto;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("./images/Header.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.parallax2 { 
+  /* The image used */
+  background-image: url("./images/header2.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("./images/city.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.parallax4 { 
+  /* The image used */
+  background-image: url("./images/post.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.parallax5 { 
+  /* The image used */
+  background-image: url("./images/food.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+nav.red {
+  background: #FFE66D;
+  height: 90px;
+  padding: 10px 50px;
+}
+
+nav .logo {
+  float: left;
+  width: auto;
+}
+
+nav .logo img {
+  height: 200px;
+  transition: 0.5s;
+}
+
+nav.red .logo img {
+  height: 110px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #262626;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fff;
+  background: #ff6b6b;
+  text-decoration: none;
+}
+
+section.sec1 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bg1.jpg);
+  background-size: cover;
+}
+
+section.sec2 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+}
+
+section.sec3 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bg3.jpg);
+  background-size: cover;
+}
+
+section.content {
+  padding: 100px;
+}
+
+section.content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+
+section.content p {
+  margin: 20px 0 0;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.responsive-bar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .responsive-bar {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #FFE66D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 20px;
+    box-sizing: border-box;
+
+  }
+
+  .responsive-bar .logo img {
+    float: left;
+  }
+
+  .responsive-bar .hamburger {
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    position: relative;
+    float: right;
+    top: 20px;
+    border: 1px solid #FFF;
+    border-radius: 10%;
+  }
+ 
+.hamburger:before,
+.hamburger:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 10%;
+} 
+
+.hamburger:before {
+    top: -12px;
+    left: -1px;
+}
+
+.hamburger:after {
+    top: 12px;
+    left: -1px;
+} 
+
+.icon.active .hamburger {
+    background: #FFE66D;
+    border: 0;
+}
+
+.icon.active .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+  .responsive-bar .menu {
+    float: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  nav,
+  nav.red {
+    background: #FFE66D;
+    height: 65px;
+    padding: 0;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  nav ul {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    background: #c12222;
+    float: none;
+    display: none;
+  }
+
+  nav ul.active {
+    display: block;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px !important;
+    color: #fff;
+  }
+}
+#transp li{
+  list-style: none;
+}
+
+.btnour{
+  background-color: #FFE66D !important;
+  color: #c12222 !important;
+  border: none !important;
 }
