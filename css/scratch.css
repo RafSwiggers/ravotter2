@@ -117,7 +117,7 @@ html * {
 }
 
 .footer a:hover{
-  color: ##D35400;
+  color: #D35400;
 }
 
 .img {
@@ -146,7 +146,7 @@ html * {
 
 .parallax { 
   /* The image used */
-  background-image: url("./images/Header.jpg");
+  background-image: url("/images/Header.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -163,7 +163,7 @@ html * {
 }
 .parallax2 { 
   /* The image used */
-  background-image: url("./images/header2.jpg");
+  background-image: url("/images/header2.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -181,7 +181,7 @@ html * {
 
 .parallax3 { 
   /* The image used */
-  background-image: url("./images/city.jpg");
+  background-image: url("/images/city.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -199,7 +199,7 @@ html * {
 
 .parallax4 { 
   /* The image used */
-  background-image: url("./images/post.jpg");
+  background-image: url("/images/post.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -216,7 +216,7 @@ html * {
 }
 .parallax5 { 
   /* The image used */
-  background-image: url("./images/food.jpg");
+  background-image: url("/images/food.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -451,6 +451,6 @@ section.content p {
 
 .btnour{
   background-color: #FFE66D !important;
-  color: #D35400!important;
+  color: #808080!important;
   border: none !important;
 }
