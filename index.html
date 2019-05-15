@@ -12,10 +12,49 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./scratch.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+            $('nav').addClass('red');
+        }
+        else
+        {
+            $('nav').removeClass('red');
+        }
+    })
+    $(document).ready(function(){
+        $('.menu').click(function(){
+            $('nav ul').toggleClass('active');
+        })
+        $('.icon').click(function(){
+            $('.icon').toggleClass('active');
+        })
+    })
+    </script>
 </head>
 <body>
+  <div class="responsive-bar">
+    <div class="logo">
+            <img src="img/ravotter2.png" alt="Logo">
+        </div>   
+        <div class="menu icon"><div class="hamburger"></div>
+        </div>
+</div>
 
+<nav>
+<div class="logo">
+    <img src="img/ravotter.png"  alt="Logo">
+</div>
+<ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</nav>
  
 
             <div class="parallax">
