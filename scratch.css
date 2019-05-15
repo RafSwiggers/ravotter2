@@ -249,17 +249,16 @@ nav.red {
 
 nav .logo {
   float: left;
+  width: auto;
 }
 
 nav .logo img {
   height: 200px;
-  width: 100%;
   transition: 0.5s;
 }
 
 nav.red .logo img {
   height: 110px;
-  width: 100%;
 }
 
 nav ul {
