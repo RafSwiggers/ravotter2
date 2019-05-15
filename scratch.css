@@ -36,7 +36,7 @@ html * {
 
 
 .form-container {
-    background-color: #C12222;
+    background-color: #ff9f1c;
     width: 55vw;
     margin: auto;
     padding: 50px;
@@ -45,9 +45,6 @@ html * {
  
  }
 
- .form-container input{
-   background-color: #F18F06;
- }
  
  form .textarea {
      resize: none;
@@ -56,7 +53,6 @@ html * {
      width: 200px;
      position:relative;
      left: 15px;
-     background-color: #F18F06;
 
  }
  
@@ -106,7 +102,7 @@ html * {
   left: -12vw;
   bottom: 0;
   width: 112vw;
-  background-color: red;
+  background-color: #FFE66D;
   color: white;
   text-align: center;
   height: auto;
@@ -115,11 +111,11 @@ html * {
   font-size: 50px;
 }
 .footer a{
-  color: #F18F06;
+  color: #ff6b6b;
 }
 
 .footer a:hover{
-  color: #F18F06;
+  color: #ff6b6b;
 }
 
 .img {
@@ -224,7 +220,7 @@ nav {
 }
 
 nav.red {
-  background: #c12222;
+  background: #FFE66D;
   height: 90px;
   padding: 10px 50px;
 }
@@ -268,7 +264,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
-  background: #f18f06;
+  background: #ff6b6b;
 }
 
 section.sec1 {
@@ -317,7 +313,7 @@ section.content p {
     display: block;
     width: 100%;
     height: 60px;
-    background: #c12222;
+    background: #FFE66D;
     position: fixed;
     top: 0;
     left: 0;
@@ -363,7 +359,7 @@ section.content p {
 } 
 
 .icon.active .hamburger {
-    background: #c12222;
+    background: #FFE66D;
     border: 0;
 }
 
@@ -389,7 +385,7 @@ section.content p {
 
   nav,
   nav.red {
-    background: #c12222;
+    background: #FFE66D;
     height: 65px;
     padding: 0;
   }
@@ -424,4 +420,7 @@ section.content p {
     line-height: 30px !important;
     color: #fff;
   }
+}
+#transp li{
+  list-style: none;
 }
