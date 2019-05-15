@@ -6,6 +6,7 @@ body h1 {
   font-size: 75px;
   color: whitesmoke;
   font-weight: bolder;
+  margin: 1vw 1vw;
   
 }
 
@@ -191,7 +192,7 @@ html * {
 
 .parallax4 { 
   /* The image used */
-  background-image: url("./images/city.jpg");
+  background-image: url("./images/post.jpg");
 
   /* Set a specific height */
   height: 450px; 
