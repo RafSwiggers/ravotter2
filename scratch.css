@@ -89,6 +89,8 @@ html * {
   position:relative;
   height:0;
   margin: 50px 0px;
+  left: 120px;
+ 
 }
 .map-responsive iframe{
   left:0;
@@ -97,6 +99,26 @@ html * {
   width:75%;
   position:absolute;
 }
+
+@media screen and (max-width: 700px) {
+
+  .map-responsive {
+    display: none;
+  }
+
+  .img-activiteiten {
+    display: none;
+   
+  }
+
+  .content-activiteiten {
+    margin: 10px;
+  }
+
+  
+}
+
+/*** Footer ***/
 
 .footer {
   position: relative;
@@ -348,6 +370,10 @@ section.content p {
   display: none;
 }
 
+.para-img {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 900px) {
   .responsive-bar {
     display: block;
@@ -413,6 +439,8 @@ section.content p {
     transform: rotate(135deg);
 }
 
+
+
   .responsive-bar .menu {
     float: right;
     color: #fff;
@@ -471,6 +499,5 @@ section.content p {
   border: none !important;
 }
 
-.para-img {
-  margin-bottom: 50px;
-}
+
+
