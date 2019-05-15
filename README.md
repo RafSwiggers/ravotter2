@@ -20,4 +20,5 @@ A simple, responsive form allowing potential customers to ask us any questions r
 ## Activities
 A playful look at what we offer the children with regard to activites, using the ball-formed pictures to reference the always popular ball-pit.
 
-## 
+## Menu
+A simple presentation of the local menu, in keeping with the colors of the website.
