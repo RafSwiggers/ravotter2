@@ -211,6 +211,23 @@ html * {
 
 
 }
+.parallax5 { 
+  /* The image used */
+  background-image: url("./images/food.jpg");
+
+  /* Set a specific height */
+  height: 450px; 
+
+
+  /* Create the parallax scrolling effect */
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
 
 nav {
   position: fixed;
