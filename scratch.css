@@ -3,7 +3,10 @@
 }
 
 body h1 {
-  font-size: 50px;
+  font-size: 75px;
+  color: whitesmoke;
+  font-weight: bolder;
+  
 }
 
 body {
@@ -157,6 +160,8 @@ html * {
   background-repeat: no-repeat;
   background-size: cover;
   width: 112vw;
+  text-align: center;
+
 
 }
 
@@ -175,6 +180,8 @@ html * {
     width: 112vw;
     position: relative;
     left: -12vw;
+    text-align: center;
+
   }
 
   .parallax3{
@@ -191,7 +198,7 @@ html * {
     background-size: cover;
     width: 124vw;
     position: relative;
-    left: -24vw;
+
   }
 
   .parallax4{
@@ -209,6 +216,8 @@ html * {
     width: 124vw;
     position: relative;
     left: -24vw;
+    text-align: center;
+    vertical-align: middle;
   }
 
   nav {

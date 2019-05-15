@@ -10,4 +10,5 @@ We chose a simple, but effective design of a white page scrolling over parallax 
 The nav bar is completely opaque when at the top, turning into a sticky navigation bar fitting the theme as soon as the user scrolls down. It does not affect the main landing, but does become a useful, ever-present tool when scrolling down. As such, it is non-disruptive without losing function.
 
 ## Parallax
-The headers are images fitting the content of the page and showing of out atmosphere. 
+The headers are images fitting the content of the page and highlighting the atmosphere. they are full-width and scroll under the page content, bringing the content into focus. It also makes the content fresh and clean.
+
