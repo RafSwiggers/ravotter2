@@ -25,3 +25,6 @@ A simple presentation of the local menu, in keeping with the colors of the websi
 
 ## Info
 We added both the address and a Google map, for ease of use. We also added opening hours and an email for, as well as a phone number on which to reach us.
+
+## Design
+We chose a simple design, keeping the content centered. The pages feature a parallax header with a page title.
