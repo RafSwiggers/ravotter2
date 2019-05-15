@@ -2,9 +2,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body h1 {
+  font-size: 50px;
+}
 
-body {margin: 0;
-
+body {
+  margin: 0;
+  align-content: center;
+  padding: auto;
+  width: 
   }
 
 html * {
@@ -13,11 +19,9 @@ html * {
 }
 
     .card {
-        width: 100vw;
-        margin: auto;
         margin-bottom: 0;
-        padding: 2vw;
-        width: 75vw;
+        padding: auto;
+        width: 100vw;
     }
       .container {
         padding: 2px 16px;
@@ -96,9 +100,10 @@ html * {
 }
 
 .footer {
-  left: 0;
+  position: relative;
+  left: -12vw;
   bottom: 0;
-  width: 100%;
+  width: 112vw;
   background-color: red;
   color: white;
   text-align: center;
@@ -118,6 +123,7 @@ html * {
 .img {
   width: 20vw;
   height: 20vw;
+  border-radius: 50%;
 }
 
 .card img{
@@ -142,6 +148,8 @@ html * {
 
   /* Set a specific height */
   height: 450px; 
+ position: relative;
+ left: -12vw;
 
   /* Create the parallax scrolling effect */
   margin-top: 5vw;
@@ -149,6 +157,8 @@ html * {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 112vw;
+
 }
 
 .parallax2{
@@ -163,4 +173,213 @@ html * {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 112vw;
+    position: relative;
+    left: -12vw;
   }
+
+  .parallax3{
+    /* The image used */
+    background-image: url("./images/city.jpg");
+
+    /* Set a specific height */
+    height: 450px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 124vw;
+    position: relative;
+    left: -24vw;
+  }
+
+  .parallax4{
+    /* The image used */
+    background-image: url("./images/post.jpg");
+
+    /* Set a specific height */
+    height: 450px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 124vw;
+    position: relative;
+    left: -24vw;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 1;
+}
+
+nav.red {
+    background: #C12222;
+    height: 90px;
+    padding: 10px 50px;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo img {
+    height: 200px;
+    width: 200px;
+    transition: .5s;
+}
+
+nav.red .logo img {
+    height: 110px;
+    width: 110px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #262626;
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #fff;
+    background: #F18F06;
+}
+
+/* section.sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+}
+
+section.sec2 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+section.sec3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg3.jpg);
+    background-size: cover;
+}
+
+section.content {
+    padding: 100px;
+}
+
+section.content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+section.content p {
+    margin: 20px 0 0;
+    padding: 0;
+    font-size: 1.1em;
+} */
+
+
+.responsive-bar {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    
+    .responsive-bar {
+        display: block;
+        width: 100%;
+        height: 60px;
+        background: #C12222;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        z-index: 2;
+    }
+
+    .responsive-bar .logo img {
+        float: left;
+        height: 80px;
+        width: 80px;
+        }
+
+    .responsive-bar .menu h4 {
+        float: right;
+        color: #FFF;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    nav,
+    nav.red {
+        background: #C12222;
+        height: 65px;
+        padding: 0;
+    }
+
+    nav .logo {
+        display: none;
+    }
+
+    nav ul {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        background: #C12222;
+        float: none;
+        display: none;
+    }
+    
+    nav ul.active {
+        display: block;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0;
+        width: 100vw;
+        text-align: center;
+        line-height: 30px !important;
+        color:#fff;
+    }
+}
