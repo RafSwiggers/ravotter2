@@ -446,3 +446,9 @@ section.content p {
 #transp li{
   list-style: none;
 }
+
+.btnour{
+  background-color: #FFE66D !important;
+  color: #c12222 !important;
+  border: none !important;
+}
