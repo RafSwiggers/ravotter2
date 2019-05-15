@@ -135,6 +135,10 @@ html * {
 
 #home{
   width: 40vw;
+  margin: auto;
+}
+#playgroundtop {
+  padding: auto;
 }
 
 .parallax { 
