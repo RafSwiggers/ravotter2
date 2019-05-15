@@ -17,6 +17,7 @@ body {
 
 html * {
 
+  font-display: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -62,7 +63,7 @@ html * {
  }
  .submitbtnour{
   color: black !important;
-  background-color: #F18F06 !important;
+  background-color: #ff9f1c !important;
   border: none !important;
  }
 
@@ -134,11 +135,11 @@ html * {
   font-size: 50px;
 }
 .footer a{
-  color: #ff6b6b;
+  color: #D35400;
 }
 
 .footer a:hover{
-  color: #ff6b6b;
+  color: #D35400;
 }
 
 .img {
@@ -183,7 +184,7 @@ html * {
 
 .parallax { 
   /* The image used */
-  background-image: url("./images/Header.jpg");
+  background-image: url("/images/Header.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -200,7 +201,7 @@ html * {
 }
 .parallax2 { 
   /* The image used */
-  background-image: url("./images/header2.jpg");
+  background-image: url("/images/header2.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -218,7 +219,7 @@ html * {
 
 .parallax3 { 
   /* The image used */
-  background-image: url("./images/city.jpg");
+  background-image: url("/images/city.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -236,7 +237,7 @@ html * {
 
 .parallax4 { 
   /* The image used */
-  background-image: url("./images/post.jpg");
+  background-image: url("/images/post.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -253,7 +254,7 @@ html * {
 }
 .parallax5 { 
   /* The image used */
-  background-image: url("./images/food.jpg");
+  background-image: url("/images/food.jpg");
 
   /* Set a specific height */
   height: 450px; 
@@ -325,8 +326,12 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
+<<<<<<< HEAD:scratch.css
   background: #ff6b6b;
   text-decoration: none;
+=======
+  background: #D35400;
+>>>>>>> master:css/scratch.css
 }
 
 section.sec1 {
@@ -467,7 +472,7 @@ section.content p {
     width: 100%;
     top: 60px;
     left: 0;
-    background: #c12222;
+    background: #D35400;
     float: none;
     display: none;
   }
@@ -495,7 +500,7 @@ section.content p {
 
 .btnour{
   background-color: #FFE66D !important;
-  color: #c12222 !important;
+  color: #808080!important;
   border: none !important;
 }
 
