@@ -63,7 +63,7 @@ html * {
  }
  .submitbtnour{
   color: black !important;
-  background-color: #F18F06 !important;
+  background-color: #ff9f1c !important;
   border: none !important;
  }
 
@@ -113,11 +113,11 @@ html * {
   font-size: 50px;
 }
 .footer a{
-  color: #ff6b6b;
+  color: #D35400;
 }
 
 .footer a:hover{
-  color: #ff6b6b;
+  color: ##D35400;
 }
 
 .img {
@@ -288,7 +288,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
-  background: #ff6b6b;
+  background: #D35400;
 }
 
 section.sec1 {
@@ -423,7 +423,7 @@ section.content p {
     width: 100%;
     top: 60px;
     left: 0;
-    background: #c12222;
+    background: #D35400;
     float: none;
     display: none;
   }
@@ -451,6 +451,6 @@ section.content p {
 
 .btnour{
   background-color: #FFE66D !important;
-  color: #c12222 !important;
+  color: #D35400!important;
   border: none !important;
 }
