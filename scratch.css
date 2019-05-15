@@ -121,9 +121,11 @@ html * {
 }
 
 .img {
+
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
+
 }
 
 .card p{
