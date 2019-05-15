@@ -90,6 +90,8 @@ html * {
   position:relative;
   height:0;
   margin: 50px 0px;
+  left: 120px;
+ 
 }
 .map-responsive iframe{
   left:0;
@@ -98,6 +100,26 @@ html * {
   width:75%;
   position:absolute;
 }
+
+@media screen and (max-width: 700px) {
+
+  .map-responsive {
+    display: none;
+  }
+
+  .img-activiteiten {
+    display: none;
+   
+  }
+
+  .content-activiteiten {
+    margin: 10px;
+  }
+
+  
+}
+
+/*** Footer ***/
 
 .footer {
   position: relative;
@@ -121,11 +143,27 @@ html * {
 }
 
 .img {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+}
+
+.card img{
+  margin: auto;
+=======
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+>>>>>>> master
+=======
 
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
 
+>>>>>>> 366e8d81752289d14aade34288bf625288b53161
 }
 
 .card p{
@@ -288,7 +326,12 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
+<<<<<<< HEAD:scratch.css
+  background: #ff6b6b;
+  text-decoration: none;
+=======
   background: #D35400;
+>>>>>>> master:css/scratch.css
 }
 
 section.sec1 {
@@ -330,6 +373,10 @@ section.content p {
 
 .responsive-bar {
   display: none;
+}
+
+.para-img {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
@@ -397,6 +444,8 @@ section.content p {
     transform: rotate(135deg);
 }
 
+
+
   .responsive-bar .menu {
     float: right;
     color: #fff;
@@ -454,3 +503,6 @@ section.content p {
   color: #808080!important;
   border: none !important;
 }
+
+
+
