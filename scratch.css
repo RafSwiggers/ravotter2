@@ -121,6 +121,7 @@ html * {
 
 .img {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
@@ -133,6 +134,13 @@ html * {
   height: 15vw;
   border-radius: 50%;
 >>>>>>> master
+=======
+
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+
+>>>>>>> 366e8d81752289d14aade34288bf625288b53161
 }
 
 .card p{
