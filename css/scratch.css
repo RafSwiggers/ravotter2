@@ -46,11 +46,11 @@
         padding: 2vw;
     }
     
-    .menu #td1 {
+    .menu .td1 {
         min-width: 150px;
     }
     
-    .menu #td2 {
+    .menu .td2 {
         width: 25%;
         text-align: right;
         font-style: italic;
