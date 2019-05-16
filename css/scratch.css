@@ -174,7 +174,7 @@ html * {
 }
 
 .parallax { 
-  background-image: url("././images/Header.jpg");
+  background-image: url("/images/Header.jpg");
   height: 450px; 
   margin-top: 5vw;
   background-attachment: fixed;
