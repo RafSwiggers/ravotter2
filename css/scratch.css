@@ -127,17 +127,12 @@ html * {
 /*** Footer ***/
 
 .footer {
-  position: relative;
-  left: -12vw;
-  bottom: 0;
-  width: 112vw;
   background-color: #FFE66D;
-  color: white;
   text-align: center;
   height: auto;
   padding: 1vw;
-  margin-top: 0;
-  font-size: 50px;
+  margin-top: 5vw;
+  
 }
 .footer a{
   color: #D35400;
@@ -145,6 +140,10 @@ html * {
 
 .footer a:hover{
   color: #D35400;
+}
+
+.icons {
+  padding: 15px;
 }
 
 .img {
