@@ -58,6 +58,10 @@ html * {
   
  }
 
+ .col-form-label {
+   text-align: left;
+ }
+
  
  .submitbtn{
     margin: 0 auto;
