@@ -1,231 +1,102 @@
     body,
-html {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-}
-
-a:link {
-    color: #262626;
-}
-
-a:hover {
-    color: #262626;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #262626;
-}
-
-.info,
-.act,
-.menu,
-.adres,
-.contact {
-    margin: 20px auto;
-    padding: auto;
-    width: 75vw;
-    border: 0;
-    margin-bottom: 150px;
-}
-
-.act img {
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
-}
-
-#playground {
-    display: block;
-    align-content: center;
-    width: 40vw;
-}
-
-.menu img {
-    width: 30vw;
-    padding: 2vw;
-}
-
-.menu #td1 {
-    min-width: 150px;
-}
-
-.menu #td2 {
-    width: 25%;
-    text-align: right;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.box-adres {
-    min-height: 300px;
-}
-
-
-/* CONTACT FORM */
-
-.form-container {
-    background-color: #ffe66d;
-    width: 50vw;
-    margin: auto;
-    padding: 50px;
-    border-radius: 1em;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-}
-
-.submitbtn {
-    background-color: #ffe66d;
-    background-color: #262626;
-}
-
-.submitbtnour {
-    background-color: #ffe66d;
-    background-color: #262626;
-}
-
-.btnour {
-    background-color: #ffe66d !important;
-    color: #808080 !important;
-    border: none !important;
-}
-
-
-}
-#transp li {
-    list-style: none;
-}
-
-/* FOOTER */
-.footer {
-    background-color: #ffe66d;
-    text-align: center;
-    font-size: 3vw;
-    border-top: 2px solid #d35400;
-}
-.footer a {
-    color: #d35400;
-}
-.footer a:hover {
-    color: #d35400;
-}
-.copyright {
-    font-size: 0.9vw;
-    color: #d35400;
-}
-
-/* PARALLAX INFORMATION */
-.parallax {
-    height: 450px;
-    margin-top: 5vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-}
-.parallax h2 {
-    font-family: "Baloo Bhai", cursive;
-    color: #fef7f7;
-    text-shadow: 3px 2px #ff4d5d;
-    font-size: 7rem;
-    position: relative;
-    text-align: center;
-    background: rgba(221, 219, 234, 0.6);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.parallax1 {
-    background-image: url("../images/Header.jpg");
-}
-.parallax2 {
-    /* The image used */
-    
-    background-image: url("../images/header2.jpg");
-}
-.parallax3 {
-    background-image: url("../images/city.jpg");
-}
-.parallax4 {
-    /* The image used */
-    
-    background-image: url("../images/post.jpg");
-}
-.parallax5 {
-    /* The image used */
-    
-    background-image: url("../images/food.jpg");
-}
-#home {
-    width: 40vw;
-    margin: auto;
-}
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120px;
-    padding: 10px 100px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    z-index: 2;
-}
-nav.red {
-    background: #ffe66d;
-    height: 90px;
-    padding: 10px 50px;
-}
-nav .logo {
-    float: left;
-    width: auto;
-}
-nav .logo img {
-    height: 200px;
-    transition: 0.5s;
-}
-nav.red .logo img {
-    height: 110px;
-}
-nav ul {
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-nav ul li {
-    list-style: none;
-}
-nav ul li a {
-    line-height: 80px;
-    color: #262626;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-nav ul li a.active,
-nav ul li a:hover {
-    color: #fff;
-    background: #ff6b6b;
-    text-decoration: none;
-}
-.responsive-bar {
-    display: none;
-}
-@media (max-width: 900px) {
-    .parallax h2 {
-        font-size: 3rem;
+    html {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
     }
     
-    .parallax {
-        height: 250px;
-        margin-top: 5vw;
+    a:link {
+        color: #262626;
     }
+    
+    a:hover {
+        color: #262626;
+        text-decoration: underline;
+    }
+    
+    a:visited {
+        color: #262626;
+    }
+    
+    .info,
+    .act,
+    .menu,
+    .adres,
+    .contact {
+        margin: 20px auto;
+        padding: auto;
+        width: 75vw;
+        border: 0;
+        margin-bottom: 150px;
+    }
+    
+    .act img {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+    }
+    
+    #playground {
+        display: block;
+        align-content: center;
+        width: 40vw;
+    }
+    
+    .menu img {
+        width: 30vw;
+        padding: 2vw;
+    }
+    
+    .menu #td1 {
+        min-width: 150px;
+    }
+    
+    .menu #td2 {
+        width: 25%;
+        text-align: right;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .box-adres {
+        min-height: 300px;
+    }
+    /* CONTACT FORM */
+    
+    .form-container {
+        background-color: #ffe66d;
+        width: 50vw;
+        margin: auto;
+        padding: 50px;
+        border-radius: 1em;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    }
+    
+    .submitbtn {
+        background-color: #ffe66d;
+        background-color: #262626;
+    }
+    
+    .submitbtnour {
+        background-color: #ffe66d;
+        background-color: #262626;
+    }
+    
+    .btnour {
+        background-color: #ffe66d !important;
+        color: #808080 !important;
+        border: none !important;
+    }
+    
+    #transp li {
+        list-style: none;
+    }
+    /* FOOTER */
     
     .footer {
-        font-size: 10vw;
+        background-color: #ffe66d;
+        text-align: center;
+        font-size: 3vw;
+        border-top: 2px solid #d35400;
     }
     
     .footer a {
@@ -237,6 +108,145 @@ nav ul li a:hover {
     }
     
     .copyright {
-        font-size: 2.5vw;
+        font-size: 0.9vw;
         color: #d35400;
+    }
+    /* PARALLAX INFORMATION */
+    
+    .parallax {
+        height: 450px;
+        margin-top: 5vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+    
+    .parallax h2 {
+        font-family: "Baloo Bhai", cursive;
+        color: #fef7f7;
+        text-shadow: 3px 2px #ff4d5d;
+        font-size: 7rem;
+        position: relative;
+        text-align: center;
+        background: rgba(221, 219, 234, 0.6);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .parallax1 {
+        background-image: url("../images/Header.jpg");
+    }
+    
+    .parallax2 {
+        /* The image used */
+        background-image: url("../images/header2.jpg");
+    }
+    
+    .parallax3 {
+        background-image: url("../images/city.jpg");
+    }
+    
+    .parallax4 {
+        /* The image used */
+        background-image: url("../images/post.jpg");
+    }
+    
+    .parallax5 {
+        /* The image used */
+        background-image: url("../images/food.jpg");
+    }
+    
+    #home {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        padding: 10px 100px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        z-index: 2;
+    }
+    
+    nav.red {
+        background: #ffe66d;
+        height: 90px;
+        padding: 10px 50px;
+    }
+    
+    nav .logo {
+        float: left;
+        width: auto;
+    }
+    
+    nav .logo img {
+        height: 200px;
+        transition: 0.5s;
+    }
+    
+    nav.red .logo img {
+        height: 110px;
+    }
+    
+    nav ul {
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav ul li {
+        list-style: none;
+    }
+    
+    nav ul li a {
+        line-height: 80px;
+        color: #262626;
+        padding: 5px 20px;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    
+    nav ul li a.active,
+    nav ul li a:hover {
+        color: #fff;
+        background: #ff6b6b;
+        text-decoration: none;
+    }
+    
+    .responsive-bar {
+        display: none;
+    }
+    
+    @media (max-width: 900px) {
+        .parallax h2 {
+            font-size: 3rem;
+        }
+        .parallax {
+            height: 250px;
+            margin-top: 5vw;
+        }
+        .footer {
+            font-size: 10vw;
+        }
+        .footer a {
+            color: #d35400;
+        }
+        .footer a:hover {
+            color: #d35400;
+        }
+        .copyright {
+            font-size: 2.5vw;
+            color: #d35400;
+        }
     }
