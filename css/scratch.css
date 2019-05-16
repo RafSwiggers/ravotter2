@@ -38,44 +38,32 @@ form .textarea {
     left: 15px;
 }
 
-<<<<<<< HEAD
+
 /*** Footer ***/
 
 .footer {
-  background-color: #FFE66D;
-  text-align: center;
-  height: auto;
-  padding: 1vw;
-  margin-top: 5vw;
-  
+    background-color: #FFE66D;
+    text-align: center;
+    height: auto;
+    padding: 1vw;
+    margin-top: 5vw;
 }
-.footer a{
-  color: #D35400;
-=======
-.col-form-label {
-    text-align: left;
->>>>>>> master
+
+.footer a {
+    color: #D35400;
 }
 
 .submitbtn {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
 .icons {
-  padding: 15px;
+    padding: 15px;
 }
 
 .img {
-  width: 20vw;
-  height: 20vw;
-  
-=======
-.submitbtnour {
-    color: black !important;
-    background-color: #ff9f1c !important;
-    border: none !important;
->>>>>>> master
+    width: 20vw;
+    height: 20vw;
 }
 
 .container h3 {
