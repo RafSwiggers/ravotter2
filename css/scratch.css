@@ -174,14 +174,8 @@ html * {
 }
 
 .parallax { 
-  /* The image used */
-  background-image: url("/images/Header.jpg");
-
-  /* Set a specific height */
+  background-image: url("../images/Header.jpg");
   height: 450px; 
-
-
-  /* Create the parallax scrolling effect */
   margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
@@ -192,13 +186,8 @@ html * {
 }
 .parallax2 { 
   /* The image used */
-  background-image: url("/images/header2.jpg");
-
-  /* Set a specific height */
+  background-image: url("../images/header2.jpg");
   height: 450px; 
-
-
-  /* Create the parallax scrolling effect */
   margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
@@ -209,14 +198,8 @@ html * {
 }
 
 .parallax3 { 
-  /* The image used */
-  background-image: url("/images/city.jpg");
-
-  /* Set a specific height */
+  background-image: url("../images/city.jpg");
   height: 450px; 
-
-
-  /* Create the parallax scrolling effect */
   margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
@@ -228,13 +211,8 @@ html * {
 
 .parallax4 { 
   /* The image used */
-  background-image: url("/images/post.jpg");
-
-  /* Set a specific height */
+  background-image: url("../images/post.jpg");
   height: 450px; 
-
-
-  /* Create the parallax scrolling effect */
   margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
@@ -245,13 +223,8 @@ html * {
 }
 .parallax5 { 
   /* The image used */
-  background-image: url("/images/food.jpg");
-
-  /* Set a specific height */
+  background-image: url("../images/food.jpg");
   height: 450px; 
-
-
-  /* Create the parallax scrolling effect */
   margin-top: 5vw;
   background-attachment: fixed;
   background-position: center;
