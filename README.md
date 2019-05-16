@@ -11,7 +11,7 @@ We're working on Github for several reasons. It is easy to work together, storag
 ## Site Design choices
 
 ### Main design
-We chose a simple, but effective design of a white page scrolling over parallax headers, with a Nav-bar on top. The red and yellow color-scheme is aimed at a fun, cheerful atmosphere. The header images are meant to show a place that is fit for kids, fun and professional. Out main point of reference would be a ball pit:
+We chose a simple, but effective design of a white page scrolling over parallax headers, with a Nav-bar on top. The red and yellow color-scheme is aimed at a fun, cheerful atmosphere. The header images are meant to indicate a place that is fit for kids, fun and professional. Our main point of reference would be a ball pit:
 ![ball pit](images/ballenbad.jpg "ballenbad image")
 
 ### Nav bar
