@@ -46,11 +46,11 @@
         padding: 2vw;
     }
     
-    .menu #td1 {
+    .menu .td1 {
         min-width: 150px;
     }
     
-    .menu #td2 {
+    .menu .td2 {
         width: 25%;
         text-align: right;
         font-style: italic;
@@ -80,10 +80,6 @@
         background-color: #ffe66d;
       
     }
-
-    
-    
-   
     
     #transp li {
         list-style: none;
@@ -107,7 +103,7 @@
     
     .copyright {
         font-size: 0.9vw;
-        color: #d35400;
+        color: #495057;
     }
     /* PARALLAX INFORMATION */
     
@@ -241,6 +237,6 @@
         }
         .copyright {
             font-size: 2.5vw;
-            color: #d35400;
+            color: #495057;
         }
     }

@@ -20,7 +20,7 @@
     <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Ravotter binnen speeltuin te Antwerpen biedt plezier voor kinderen vanaf 3 tot 13 jaar. De ouders kunnen er genieten van een hapje met gratis WIFI.">
     <meta name="keywords" content="binnenspeeltuin, kinderen, plezier, Antwerpen, jong, activiteit, evenementen, spelen, verblijf, veilig, eten, drinken, snack">
     <meta name="author" content="Steve, Raf, Soman, Benny">
@@ -133,7 +133,7 @@
             <div class="col-md-5 col-4"><img title="Springkasteel" src="images/s_springkasteel.JPG" alt="Springkasteel" /></div>
         </div>
         <div class="row align-items-center">
-            <div class="col-md-5 col-4"><img title="Ballenbad" src="images/s_ballenbad.jpg" alt="Ballenbad" /></div>
+            <div class="col-md-5 col-4"><img title="Ballenbad" src="images/ballenbad.jpg" alt="Ballenbad" /></div>
             <div class="col-md-7 col-8">
                 <h4>Ballenbad</h4>
                 <p>We hebben in totaal een 100.000 ballen verspreidt over verscheidene zones.</p>
@@ -181,58 +181,58 @@
                 <td colspan="2" align="center"> <img src="images/kinderen.png" alt="image with children banner"> </td>
             </tr>
             <tr>
-                <td id="td1"> Tomatensoep </td>
-                <td id="td2"> € 5,00 </td>
+                <td class="td1"> Tomatensoep </td>
+                <td class="td2"> € 5,00 </td>
             </tr>
             <tr>
-                <td id="td1"> Spaghetti bolognese </td>
-                <td id="td2"> € 6,95</td>
+                <td class="td1"> Spaghetti bolognese </td>
+                <td class="td2"> € 6,95</td>
             </tr>
             <tr>
-                <td id="td1"> Kroketten met friet </td>
-                <td id="td2"> € 7,50</td>
+                <td class="td1"> Kroketten met friet </td>
+                <td class="td2"> € 7,50</td>
             </tr>
             <tr>
-                <td id="td1"> Pannenkoeken </td>
-                <td id="td2">€ 4,50 </td>
+                <td class="td1"> Pannenkoeken </td>
+                <td class="td2">€ 4,50 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center"> <img src="images/volwassenen.png" width="40%" alt="image with adult banner"> </td>
             </tr>
             <tr>
-                <td id="td1">Gebakken garnalen </td>
-                <td id="td2">€ 7,95 </td>
+                <td class="td1">Gebakken garnalen </td>
+                <td class="td2">€ 7,95 </td>
             </tr>
             <tr>
-                <td id="td1"> Zomer hotdog </td>
-                <td id="td2"> € 14,95</td>
+                <td class="td1"> Zomer hotdog </td>
+                <td class="td2"> € 14,95</td>
             </tr>
             <tr>
-                <td id="td1"> Portobello burger </td>
-                <td id="td2">€ 14,95</td>
+                <td class="td1"> Portobello burger </td>
+                <td class="td2">€ 14,95</td>
             </tr>
             <tr>
-                <td id="td1"> Vruchtensorbet </td>
-                <td id="td2">€ 6,95 </td>
+                <td class="td1"> Vruchtensorbet </td>
+                <td class="td2">€ 6,95 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center"> <img src="images/drinken.png" width="40%" alt="image with drinks banner"> </td>
             </tr>
             <tr>
-                <td id="td1"> Water </td>
-                <td id="td2">€ 2,00 </td>
+                <td class="td1"> Water </td>
+                <td class="td2">€ 2,00 </td>
             </tr>
             <tr>
-                <td id="td1"> Coca cola </td>
-                <td id="td2"> € 2,00</td>
+                <td class="td1"> Coca cola </td>
+                <td class="td2"> € 2,00</td>
             </tr>
             <tr>
-                <td id="td1"> Fanta orange </td>
-                <td id="td2"> € 2,00</td>
+                <td class="td1"> Fanta orange </td>
+                <td class="td2"> € 2,00</td>
             </tr>
             <tr>
-                <td id="td1"> Appelsiensap </td>
-                <td id="td2">€ 2,00 </td>
+                <td class="td1"> Appelsiensap </td>
+                <td class="td2">€ 2,00 </td>
             </tr>
         </table>
     </div>
@@ -304,8 +304,8 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-4 col-10 col-form-label">Onderwerp:</label>
-                    <textarea class="col-sm-8 form-control textarea" name="inputTextarea" rows="10" cols="70" placeholder="Bericht"></textarea>
+                    <label for="inputTextarea" id="inputTextarea" class="col-sm-4 col-10 col-form-label">Onderwerp:</label>
+                    <textarea class="col-sm-8 form-control textarea" name="inputTextarea" id="inputTextarea" rows="10" cols="70" placeholder="Bericht"></textarea>
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-5 submitbtn">
@@ -319,10 +319,12 @@
 
 
     <div class="footer">
-        <p> <a class="logo" href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i></a>
-            <a class="logo" href="https://twitter.com/?lang=nl" target="blank"><i class="fab fa-twitter-square"></i></a>
-            <a class="logo" href="https://www.instagram.com/?hl=nl" target="blank"><i class="fab fa-instagram"></i></a>
-            <a class="logo" href="mailto:benny.ho2530@gmail.com"><i class="fas fa-envelope"></i></a>
+
+        <p> <a class="logo" title="our future facebook page" href="https://www.facebook.com/ravotter-antwerpen"><i class="fab fa-facebook-square"></i></a>
+            <a class="logo" title="our future twitter feed" href="https://www.twitter.com/ravotter-antwerpen"><i class="fab fa-twitter-square"></i></a>
+            <a class="logo" title="our email address" href="mailto:benny.ho2530@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a class="logo" title "our future instagram page" href="https://www.instagram.com/?hl=nl" target="blank"><i class="fab fa-instagram"></i></a>
+
 
             <div class="copyright">A SoBeRaSt design &copy; 2019</div>
     </div>
