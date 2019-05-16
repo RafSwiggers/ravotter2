@@ -6,7 +6,7 @@ The objective of this project is to, as a group, think of a new company and prov
 ## Publishing
 We're working on Github for several reasons. It is easy to work together, storage is cloud-based and the coaches can evaluate us as we work. It's also a great way to present the final work in our portfolio
 
-## [You can find the website here](https://rafswiggers.github.io/ravotter2)
+## [You can find the website here](https://rafswiggers.github.io/ravotter2 "the published website of indoor playground Ravotter")
 
 ## Site Design choices
 
