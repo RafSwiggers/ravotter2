@@ -1,3 +1,4 @@
+
 body,
 html {
   margin: 0;
@@ -159,73 +160,78 @@ a:visited {
 }
 
 
-/* NAVIGATION */
+#home {
+    width: 40vw;
+    margin: auto;
+}
+
 
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 120px;
-  padding: 10px 100px;
-  box-sizing: border-box;
-  transition: 0.5s;
-  z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 2;
 }
 
 nav.red {
+
   background: #ffe66d;
   height: 90px;
   padding: 10px 50px;
+
 }
 
 nav .logo {
-  float: left;
-  width: auto;
+    float: left;
+    width: auto;
 }
 
 nav .logo img {
-  height: 200px;
-  transition: 0.5s;
+    height: 200px;
+    transition: 0.5s;
 }
 
 nav.red .logo img {
-  height: 110px;
+    height: 110px;
 }
 
 nav ul {
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: flex;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 nav ul li {
-  list-style: none;
+    list-style: none;
 }
 
 nav ul li a {
-  line-height: 80px;
-  color: #262626;
-  padding: 5px 20px;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.5s;
+    line-height: 80px;
+    color: #262626;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: #fff;
-  background: #ff6b6b;
-  text-decoration: none;
+    color: #fff;
+    background: #ff6b6b;
+    text-decoration: none;
 }
 
 .responsive-bar {
-  display: none;
+    display: none;
 }
-
 
 @media (max-width: 900px) {
   .parallax h1 {
@@ -252,4 +258,6 @@ nav ul li a:hover {
     font-size: 2.5vw;
     color: #d35400;
   }
-  
+
+
+
