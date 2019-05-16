@@ -31,10 +31,12 @@ html * {
       .container {
         padding: 2px 16px;
       }
-.card * {
+.card  {
   text-align: center;
 }
 /****** Contact sections ****/  
+
+
 
 
 .form-container {
@@ -51,12 +53,15 @@ html * {
  form .textarea {
      resize: none;
      display: inline-block;
-     align-items: right;
-     width: 200px;
      position:relative;
      left: 15px;
-
+  
  }
+
+ .col-form-label {
+   text-align: left;
+ }
+
  
  .submitbtn{
     margin: 0 auto;
@@ -145,14 +150,22 @@ html * {
 .img {
   width: 20vw;
   height: 20vw;
+  
+}
+
+.img-activiteiten {
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
 }
+
+
 
 .card img{
 
   width: 15vw;
   height: 15vw;
-  border-radius: 50%;
+  
 
 
 }
@@ -171,6 +184,7 @@ html * {
 }
 #playgroundtop {
   padding: auto;
+  margin: 50px;
 }
 
 .parallax { 
