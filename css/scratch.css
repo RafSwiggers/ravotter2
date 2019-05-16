@@ -73,19 +73,17 @@
     
     .submitbtn {
         background-color: #ffe66d;
-        background-color: #262626;
+        
     }
     
     .submitbtnour {
         background-color: #ffe66d;
-        background-color: #262626;
+      
     }
+
     
-    .btnour {
-        background-color: #ffe66d !important;
-        color: #808080 !important;
-        border: none !important;
-    }
+    
+   
     
     #transp li {
         list-style: none;
