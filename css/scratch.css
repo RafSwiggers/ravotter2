@@ -143,8 +143,7 @@ html * {
 }
 
 .img {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
@@ -152,18 +151,16 @@ html * {
 
 .card img{
   margin: auto;
-=======
-  width: 15vw;
-  height: 15vw;
-  border-radius: 50%;
->>>>>>> master
-=======
 
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
 
->>>>>>> 366e8d81752289d14aade34288bf625288b53161
+
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+
 }
 
 .card p{
@@ -326,12 +323,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
-<<<<<<< HEAD:scratch.css
-  background: #ff6b6b;
-  text-decoration: none;
-=======
   background: #D35400;
->>>>>>> master:css/scratch.css
 }
 
 section.sec1 {
