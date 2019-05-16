@@ -478,5 +478,8 @@ section.content p {
   border: none !important;
 }
 
-
+.googlemps {
+  height:450;
+   border:0;
+}
 
