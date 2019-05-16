@@ -6,7 +6,7 @@ The objective of this project is to, as a group, think of a new company and prov
 ## Publishing
 We're working on Github for several reasons. It is easy to work together, storage is cloud-based and the coaches can evaluate us as we work. It's also a great way to present the final work in our portfolio
 
-## 
+## [You can find the website here](https://rafswiggers.github.io/ravotter2)
 
 ## Site Design choices
 
@@ -39,3 +39,7 @@ We chose a simple design, keeping the content centered. The pages feature a para
 
 ## License
 [This work is licensed under a Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+
+## Readme
+This readme was written by Raf Swiggers, to inform any visitors of the reasoning behind the sites design and build. It's also meant to present our website to the world.
+
