@@ -1,13 +1,18 @@
 # Final HTML Test: Ravotter
 
 ## Summary and goals
-The objective of this project is to, as a group, think of a new company and provide a website for it. Fully functional and designed with all the relevant tests in mind, this website is to be a finished project. Completely applicable.
+The objective of this project is to, as a group, think of a new company and provide a website for it. Fully functional and designed with all the relevant tests in mind, this website is to be a finished project. Completely applicable. The underlying idea is to become familiar with working on a project with many requirements, as a group. Detail-oriented and efficient, working from scratch.
+
+## Publishing
+We're working on Github for several reasons. It is easy to work together, storage is cloud-based and the coaches can evaluate us as we work. It's also a great way to present the final work in our portfolio
+
+## 
 
 ## Site Design choices
 
 ### Main design
 We chose a simple, but effective design of a white page scrolling over parallax headers, with a Nav-bar on top. The red and orange color-scheme is aimed at a fun, cheerful atmosphere. The header images are meant to show a place that is fit for kids, fun and professional. Out main point of reference would be a ball pit:
-![ball pit](/ravotter2/images/ballenbad "ballenbad image")
+![ball pit](/images/ballenbad "ballenbad image")
 
 ### Nav bar
 The nav bar is completely opaque when at the top, turning into a sticky navigation bar fitting the theme as soon as the user scrolls down. It does not affect the main landing, but does become a useful, ever-present tool when scrolling down. As such, it is non-disruptive without losing function.
