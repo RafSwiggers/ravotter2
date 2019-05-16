@@ -138,6 +138,7 @@
     
     .parallax1 {
         background-image: url("../images/Header.jpg");
+        width: 100vw;
     }
     
     .parallax2 {
@@ -157,11 +158,6 @@
     .parallax5 {
         /* The image used */
         background-image: url("../images/food.jpg");
-    }
-    
-    #home {
-        width: 40vw;
-        margin: auto;
     }
     
     nav {
