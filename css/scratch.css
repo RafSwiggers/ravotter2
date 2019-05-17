@@ -60,19 +60,20 @@ a:visited {
   font-weight: bold;
 }
 
-.box-adres {
-  min-height: 300px;
-}
 /* CONTACT FORM */
 
 .form-container {
   background-color: #F5FFAD;
   width: 100%;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 20px auto;
   padding: 50px;
   border-radius: 1em;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  min-height: 400px;
+}
+
+.form-container ul {
+  list-style-type: none;
 }
 
 .submitbtn {
@@ -105,11 +106,28 @@ a:visited {
   color: #d35400;
 }
 
-h1 {
+h1, h2 {
   font-family: "Baloo Bhai", cursive;
   text-align: right;
   font-size: 5rem;
   padding-bottom: 2vw;
+}
+
+h1, h2 {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 2vw;
+}
+
+h3 {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 3vw;
+}
+
+#formules {
+  padding-top: 30px;
 }
 
 /* PARALLAX INFORMATION */
@@ -233,10 +251,10 @@ nav ul li a:hover {
   .parallax h2 {
     font-size: 3rem;
   }
-  .parallax {
+  /* .parallax {
     height: 250px;
     margin-top: 5vw;
-  }
+  } */
   .footer {
     font-size: 10vw;
   }
