@@ -103,6 +103,16 @@
         font-size: 0.9vw;
         color: #495057;
     }
+
+        
+    h1 {
+        font-family: "Baloo Bhai", cursive;
+        text-align: right;
+        font-size: 5rem;
+        padding-bottom: 2vw;
+    }
+
+
     /* PARALLAX INFORMATION */
     
     .parallax {
@@ -217,6 +227,11 @@
     }
     
     @media (max-width: 900px) {
+        
+        h1 {
+            font-size: 1rem;
+        }
+        
         .parallax h2 {
             font-size: 3rem;
         }
@@ -237,8 +252,4 @@
             font-size: 2.5vw;
             color: #495057;
         }
-    }
-    
-    h1 {
-        text-align: center;
     }
