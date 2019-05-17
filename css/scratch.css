@@ -2,6 +2,7 @@
     html {
         margin: 0;
         font-family: "Montserrat", sans-serif;
+        overflow-x: hidden;
     }
     
     a:link {
@@ -237,6 +238,10 @@
             font-size: 2.5vw;
             color: #495057;
         }
+
+        
+
+
     }
     
     h1 {
