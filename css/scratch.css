@@ -253,7 +253,6 @@ nav ul li a:hover {
   }
  .parallax {
     height: 250px;
-    margin-top: 5vw;
     background-attachment: scroll;
   }
 
