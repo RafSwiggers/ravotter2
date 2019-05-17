@@ -138,27 +138,27 @@ h1 {
 }
 
 .parallax1 {
-  background-image: url("../images/Header.jpg");
+  background-image: url("../images/binnenspeeltuin.jpg");
   width: 100vw;
 }
 
 .parallax2 {
   /* The image used */
-  background-image: url("../images/header2.jpg");
+  background-image: url("../images/ballen.jpg");
 }
 
 .parallax3 {
-  background-image: url("../images/city.jpg");
+  background-image: url("../images/locatie.jpg");
 }
 
 .parallax4 {
   /* The image used */
-  background-image: url("../images/post.jpg");
+  background-image: url("../images/contact.jpg");
 }
 
 .parallax5 {
   /* The image used */
-  background-image: url("../images/food.jpg");
+  background-image: url("../images/wafel.jpg");
 }
 
 nav {
