@@ -185,12 +185,13 @@ nav .logo {
 
 nav .logo img {
   height: 200px;
-  width: 100%;
+  width: 200px;
   transition: 0.5s;
 }
 
 nav.red .logo img {
   height: 110px;
+  width: 110px;
 }
 
 nav ul {
