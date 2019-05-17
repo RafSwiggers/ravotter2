@@ -2,6 +2,9 @@ body,
 html {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  ;
 }
 
 a:link {
@@ -77,24 +80,6 @@ a:visited {
 
 .submitbtnour {
   background-color: #ffe66d;
-}
-
-/* CARROUSEL */
-
-.item {
-  display: none;
-  position: relative;
-  .transition(.3s ease-in-out left);
-}
-
-#carouselExampleCaptions {
-  width: 50%;
-  height: 50%;
-  margin: auto;
-}
-
-.carousel-h3 {
-    top: -40px;
 }
 
 /* FOOTER */
@@ -200,7 +185,6 @@ nav .logo {
 
 nav .logo img {
   height: 200px;
-  width: 100%;
   transition: 0.5s;
 }
 
