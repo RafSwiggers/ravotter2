@@ -268,7 +268,7 @@ nav ul li a:hover {
     background: #d35400;
     position: relative;
     float: right;
-    top: -40px;
+    top: 30px;
     border: 1px solid #d35400;
     border-radius: 10%;
   }

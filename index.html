@@ -54,7 +54,14 @@
             })
             
             $('.icon').click(function() {
-
+                $('.icon').toggleClass('active');
+            })
+            
+            $('.menuItem').click(function() {
+                $('nav ul').toggleClass('active');
+            })
+            
+            $('.menuItem').click(function() {
                 $('.icon').toggleClass('active');
             })
         })
@@ -94,11 +101,11 @@
             <img title="logo" src="images/ravotter.png" alt="Logo">
         </div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#activiteiten">Activiteiten</a></li>
-            <li><a href="#menukaart">Menu</a></li>
-            <li><a href="#ligging">Waar?</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="menuItem"><a href="#home">Home</a></li>
+            <li class="menuItem"><a href="#activiteiten">Activiteiten</a></li>
+            <li class="menuItem"><a href="#menukaart">Menu</a></li>
+            <li class="menuItem"><a href="#ligging">Waar?</a></li>
+            <li class="menuItem"><a href="#contact" >Contact</a></li>
         </ul>
     </nav>
 
