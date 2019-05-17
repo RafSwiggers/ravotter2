@@ -253,10 +253,9 @@ nav ul li a:hover {
   }
  .parallax {
     height: 250px;
-    background-attachment: scroll;
+    background-attachment: fixed;
     position:static !important;
     background-size:auto !important;
-    background-attachment:scroll !important;
   }
 
   .footer {
