@@ -1,255 +1,364 @@
-    body,
-    html {
-        margin: 0;
-        font-family: "Montserrat", sans-serif;
-    }
-    
-    a:link {
-        color: #262626;
-    }
-    
-    a:hover {
-        color: #262626;
-        text-decoration: underline;
-    }
-    
-    a:visited {
-        color: #262626;
-    }
-    
-    .info,
-    .act,
-    .menu,
-    .adres,
-    .contact {
-        margin: 20px auto;
-        padding: auto;
-        width: 75vw;
-        border: 0;
-        margin-bottom: 150px;
-    }
-    
-    .act img {
-        width: 15vw;
-        height: 15vw;
-        border-radius: 50%;
-    }
-    
-    #playground {
-        display: block;
-        align-content: center;
-        width: 40vw;
-    }
-    
-    .menu img {
-        width: 30vw;
-        padding: 2vw;
-    }
-    
-    .menu .td1 {
-        min-width: 150px;
-    }
-    
-    .menu .td2 {
-        width: 25%;
-        text-align: right;
-        font-style: italic;
-        font-weight: bold;
-    }
-    
-    .box-adres {
-        min-height: 300px;
-    }
-    /* CONTACT FORM */
-    
-    .form-container {
-        background-color: #ffe66d;
-        width: 50vw;
-        margin: auto;
-        padding: 50px;
-        border-radius: 1em;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-    }
-    
-    .submitbtn {
-        background-color: #ffe66d;
-    }
-    
-    .submitbtnour {
-        background-color: #ffe66d;
-    }
-    
-    #transp li {
-        list-style: none;
-    }
-    /* FOOTER */
-    
-    .footer {
-        background-color: #ffe66d;
-        text-align: center;
-        font-size: 3vw;
-        border-top: 2px solid #d35400;
-    }
-    
-    .footer a {
-        color: #d35400;
-    }
-    
-    .footer a:hover {
-        color: #d35400;
-    }
-    
-    .copyright {
-        font-size: 0.9vw;
-        color: #495057;
-    }
+body,
+html {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
 
-        
-    h1 {
-        font-family: "Baloo Bhai", cursive;
-        text-align: right;
-        font-size: 5rem;
-        padding-bottom: 2vw;
-    }
+a:link {
+  color: #262626;
+}
 
+a:hover {
+  color: #262626;
+  text-decoration: underline;
+}
 
-    /* PARALLAX INFORMATION */
-    
-    .parallax {
-        height: 450px;
-        margin-top: 5vw;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 50px;
-    }
-    
-    .parallax h2 {
-        font-family: "Baloo Bhai", cursive;
-        color: #fef7f7;
-        text-shadow: 3px 2px #ff4d5d;
-        font-size: 7rem;
-        position: relative;
-        text-align: center;
-        background: rgba(221, 219, 234, 0.6);
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .parallax1 {
-        background-image: url("../images/Header.jpg");
-        width: 100vw;
-    }
-    
-    .parallax2 {
-        /* The image used */
-        background-image: url("../images/header2.jpg");
-    }
-    
-    .parallax3 {
-        background-image: url("../images/city.jpg");
-    }
-    
-    .parallax4 {
-        /* The image used */
-        background-image: url("../images/post.jpg");
-    }
-    
-    .parallax5 {
-        /* The image used */
-        background-image: url("../images/food.jpg");
-    }
-    
-    nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 120px;
-        padding: 10px 100px;
-        box-sizing: border-box;
-        transition: 0.5s;
-        z-index: 2;
-    }
-    
-    nav.red {
-        background: #ffe66d;
-        height: 90px;
-        padding: 10px 50px;
-    }
-    
-    nav .logo {
-        float: left;
-        width: auto;
-    }
-    
-    nav .logo img {
-        height: 200px;
-        transition: 0.5s;
-    }
-    
-    nav.red .logo img {
-        height: 110px;
-    }
-    
-    nav ul {
-        float: right;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-    
-    nav ul li {
-        list-style: none;
-    }
-    
-    nav ul li a {
-        line-height: 80px;
-        color: #262626;
-        padding: 5px 20px;
-        font-family: "Roboto", sans-serif;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.5s;
-    }
-    
-    nav ul li a.active,
-    nav ul li a:hover {
-        color: #fff;
-        background: #ff6b6b;
-        text-decoration: none;
-    }
-    
-    .responsive-bar {
-        display: none;
-    }
-    
-    @media (max-width: 900px) {
-        
-        h1 {
-            font-size: 1rem;
-        }
-        
-        .parallax h2 {
-            font-size: 3rem;
-        }
-        .parallax {
-            height: 250px;
-            margin-top: 5vw;
-        }
-        .footer {
-            font-size: 10vw;
-        }
-        .footer a {
-            color: #d35400;
-        }
-        .footer a:hover {
-            color: #d35400;
-        }
-        .copyright {
-            font-size: 2.5vw;
-            color: #495057;
-        }
-    }
+a:visited {
+  color: #262626;
+}
+
+.info,
+.act,
+.menu,
+.adres,
+.contact {
+  margin: 20px auto;
+  padding: auto;
+  width: 75vw;
+  border: 0;
+  margin-bottom: 150px;
+}
+
+.act img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+#playground {
+  display: block;
+  align-content: center;
+  width: 40vw;
+}
+
+.menu img {
+  width: 30vw;
+  padding: 2vw;
+}
+
+.menu .td1 {
+  min-width: 150px;
+}
+
+.menu .td2 {
+  width: 25%;
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.box-adres {
+  min-height: 300px;
+}
+/* CONTACT FORM */
+
+.form-container {
+  background-color: #ffe66d;
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 1em;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+.submitbtn {
+  background-color: #ffe66d;
+}
+
+.submitbtnour {
+  background-color: #ffe66d;
+}
+
+#transp li {
+  list-style: none;
+}
+/* FOOTER */
+
+.footer {
+  background-color: #ffe66d;
+  text-align: center;
+  font-size: 3vw;
+  border-top: 2px solid #d35400;
+}
+
+.footer a {
+  color: #d35400;
+}
+
+.footer a:hover {
+  color: #d35400;
+}
+
+.copyright {
+  font-size: 0.9vw;
+  color: #d35400;
+}
+
+h1 {
+  font-family: "Baloo Bhai", cursive;
+  text-align: right;
+  font-size: 5rem;
+  padding-bottom: 2vw;
+}
+
+/* PARALLAX INFORMATION */
+
+.parallax {
+  height: 450px;
+  margin-top: 5vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.parallax h2 {
+  font-family: "Baloo Bhai", cursive;
+  color: #fef7f7;
+  text-shadow: 3px 2px #ff4d5d;
+  font-size: 7rem;
+  position: relative;
+  text-align: center;
+  background: rgba(221, 219, 234, 0.6);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax1 {
+  background-image: url("../images/Header.jpg");
+  width: 100vw;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/header2.jpg");
+}
+
+.parallax3 {
+  background-image: url("../images/city.jpg");
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("../images/post.jpg");
+}
+
+.parallax5 {
+  /* The image used */
+  background-image: url("../images/food.jpg");
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+nav.red {
+
+  background: #ffe66d;
+  border-bottom: 3px solid #d35400;
+  height: 100px;
+  padding: 10px 50px;
+
+}
+
+nav .logo {
+  float: left;
+}
+
+nav .logo img {
+  height: 200px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+nav.red .logo img {
+  height: 110px;
+  width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #262626;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fff;
+  background: #f18f06;
+  text-decoration: none;
+}
+
+.responsive-bar {
+    display: none;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .parallax h2 {
+    font-size: 3rem;
+  }
+  .parallax {
+    height: 250px;
+    margin-top: 5vw;
+  }
+  .footer {
+    font-size: 10vw;
+  }
+  .copyright {
+    font-size: 2.5vw;
+  }
+
+  .responsive-bar {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: #ffe66d;
+    border-bottom: 3px solid #d35400;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .responsive-bar .logo img {
+    float: left;
+  }
+
+  .responsive-bar .hamburger {
+    width: 40px;
+    height: 3px;
+    background: #d35400;
+    position: relative;
+    float: right;
+    top: -40px;
+    border: 1px solid #d35400;
+    border-radius: 10%;
+  }
+
+  .hamburger:before,
+  .hamburger:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #d35400;
+    border: 1px solid #d35400;
+    border-radius: 10%;
+  }
+
+  .hamburger:before {
+    top: -8px;
+    left: -1px;
+  }
+
+  .hamburger:after {
+    top: 6px;
+    left: -1px;
+  }
+
+  .icon.active .hamburger {
+    background: #ffe66d;
+    border: 0;
+  }
+
+  .icon.active .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .icon.active .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  .responsive-bar .menu {
+    float: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  nav,
+  nav.red {
+    height: 70px;
+    background: #ffe66d;
+    border-bottom: 3px solid #d35400;
+    padding: 0;
+    z-index: 2;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  nav ul {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    background: #ffe66d;
+    float: none;
+    display: none;
+  }
+
+  nav ul.active {
+    display: block;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px !important;
+    color: #fff;
+  }
+}
