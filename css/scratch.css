@@ -378,3 +378,10 @@ nav ul li a:hover {
     color: #FEFDF2;
   }
 }
+
+@media (max-width: 400px) {
+  .parallax {
+    height: 250px;
+    background-attachment: scroll;
+  }
+}
