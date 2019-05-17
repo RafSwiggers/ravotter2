@@ -251,15 +251,12 @@ nav ul li a:hover {
   .parallax h2 {
     font-size: 3rem;
   }
-  /* .parallax {
+ parallax {
     height: 250px;
     margin-top: 5vw;
-  } */
-
-  .parallax {
     background-attachment: scroll;
   }
-  
+
   .footer {
     font-size: 10vw;
   }
