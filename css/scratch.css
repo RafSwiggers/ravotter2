@@ -255,6 +255,11 @@ nav ul li a:hover {
     height: 250px;
     margin-top: 5vw;
   } */
+
+  .parallax {
+    background-attachment: scroll;
+  }
+  
   .footer {
     font-size: 10vw;
   }
