@@ -254,6 +254,9 @@ nav ul li a:hover {
  .parallax {
     height: 250px;
     background-attachment: scroll;
+    position:static !important;
+    background-size:auto !important;
+    background-attachment:scroll !important;
   }
 
   .footer {
@@ -376,12 +379,5 @@ nav ul li a:hover {
     text-align: center;
     line-height: 30px !important;
     color: #FEFDF2;
-  }
-}
-
-@media (max-width: 400px) {
-  .parallax {
-    height: 250px;
-    background-attachment: scroll;
   }
 }
